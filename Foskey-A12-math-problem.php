@@ -30,7 +30,7 @@
 <?php
 	// add call to include the file with the functions
 	// change this file name to match your file name
-	include ("inc-math-problem.php");
+	include ("Foskey-A12-inc-math-problem.php");
 
 	// get the two numbers from the html file
 	$number1 = $_POST['number1'];
@@ -60,9 +60,11 @@
 
 	
 	// link back to original html program
-	print("<p> <a href = \"math-problem.html\"> Return to Input </a></p>");
+	print("<p> <a href = \"Foskey-A12-math-problem.html\"> Return to Input </a></p>");
 
 
 ?>
+<img src="https://inteng-storage.s3.amazonaws.com/img/iea/qrwBXRzWG5/sizes/simplemathematics_resize_md.jpg" alt="math problems picture">
+	
 </body>
 </html>

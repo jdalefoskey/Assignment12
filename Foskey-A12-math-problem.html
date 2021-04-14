@@ -31,11 +31,19 @@
 	<p>
 	
 	<!-- Display an image -->
+	<img src="https://inteng-storage.s3.amazonaws.com/img/iea/qrwBXRzWG5/sizes/simplemathematics_resize_md.jpg" alt="math problems picture">
 	
 	
 	<!-- use a form to get 2 numbers from the user; pass them 
 		 to math-problem.php. Use the names number1 and number2
          in the input tag -->
+		 <form action="Foskey-A12-math-problem.php" method="post">
+				<p>Please select 2 numbers, these numbers will be used in math calculations</p>
+				<input type="number" name = "number1" placeholder="enter your first numnber" required>
+				<input type="number" name = "number2" placeholder="enter your second numnber" required>
+				<input class="input" type = "submit" value = "Submit">
+				<input class="input" type = "reset" value = "Reset">
+		 </form>
 	
 		
 		<!-- Add Submit and Reset buttons -->
