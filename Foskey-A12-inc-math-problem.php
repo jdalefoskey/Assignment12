@@ -1,5 +1,5 @@
 
-
+<!-- Below are the mathematical functions -->
 <?php
 function addition($number1,$number2)
 {

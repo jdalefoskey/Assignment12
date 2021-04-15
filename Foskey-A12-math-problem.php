@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--	Author: 
-			Date:	
-			File:	math-problem.php
+	<!--	Author: Dale Foskey
+			Date:	04/15/21
+			File:	Foskey-A12-math-problem.php
 			Purpose: Chapter 13 Assignment
 		
 		Algorithm for math-problem.php
